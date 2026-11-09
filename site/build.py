@@ -319,6 +319,7 @@ body = f"""
 <nav><a href="#home">Overview</a><a href="#projects">Projects</a><a href="#meetings">Meetings</a><a href="#records">Records</a><a href="#alerts">Alerts</a><a href="#about">About</a></nav>
 </div></header>
 <main class="wrap">
+<p class="kindness" role="note"><span aria-hidden="true">♥</span> Be kind to your local government officials.</p>
 
 <section id="home" class="view" data-view>
 <div class="grid2">

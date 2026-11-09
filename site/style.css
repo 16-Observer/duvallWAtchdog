@@ -171,3 +171,9 @@ footer.wrap { padding-block: 20px 32px; border-top: 1px solid var(--rule); }
 .pill.open { background: var(--warn-soft); color: var(--warn); }
 .pill.closed { background: var(--accent-soft); color: var(--muted); }
 .t-records_request .kindtag, .t-records_released .kindtag { color: var(--accent); }
+
+/* standing reminder, shown on every view just below the header */
+.kindness { margin: 26px 0 0; padding: 10px 14px; background: var(--accent-soft); color: var(--ink); border-radius: 3px;
+  font: 600 15px/1.4 var(--f-body); display: flex; gap: 10px; align-items: center; }
+.kindness span { color: var(--accent); font-size: 17px; }
+.kindness + .view > .sec:first-child, .kindness + .view > .grid2:first-child .sec { margin-top: 22px; }
