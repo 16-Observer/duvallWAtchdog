@@ -2,6 +2,18 @@
  "generated": "2026-11-09",
  "requests": [
   {
+   "id": "26-385",
+   "date": "2026-11-07",
+   "due": "2026-12-07",
+   "state": "Closed",
+   "department": "City Clerk's Office",
+   "text": "Hi, I'm following up on a request I made on 10/30. I requested all comment letters received related to the SEPA comment period on Title 14 and Comp Plan Amendments, SEPA File No. 202603486. Could I please get an update on the status of that request? Thanks so much, Betsy MacWhinney",
+   "url": "https://duvallwa.nextrequest.com/requests/26-385",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
+  {
    "id": "26-376",
    "date": "2026-11-04",
    "due": "2026-12-04",
