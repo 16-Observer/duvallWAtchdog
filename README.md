@@ -39,12 +39,16 @@ Open `public/index.html`.
 
 ## Put it online (free)
 
-1. Push this folder to a GitHub repository.
-2. In the repo, go to Settings → Pages → Source: **GitHub Actions**.
-3. Optional: add an `ANTHROPIC_API_KEY` repository secret to get a plain-English summary for each project. Without it, everything else still works.
-4. `.github/workflows/update.yml` runs twice a day. It scrapes, commits the data, and deploys the site.
+The site is hosted on **Cloudflare Pages**, connected to this repo.
 
-**Email alerts:** point an RSS-to-email service (Buttondown, Follow.it, Blogtrottr, Mailchimp RSS campaigns) at `https://<you>.github.io/<repo>/feed.xml`.
+1. In Cloudflare: Workers & Pages → the project → Settings → Build. Set:
+   - Framework preset: **None**
+   - Build command: `python site/build.py --site-url https://duvallwatch.dog/`
+   - Build output directory: `public`
+2. `.github/workflows/update.yml` runs twice a day. It scrapes and commits new data to `main`, and each commit triggers a Cloudflare rebuild.
+3. Optional: add an `ANTHROPIC_API_KEY` repository secret (GitHub → Settings → Secrets → Actions) to get a plain-English summary for each project. Without it, everything else still works.
+
+**Email alerts:** point an RSS-to-email service (Buttondown, Follow.it, Blogtrottr, Mailchimp RSS campaigns) at `https://duvallwatch.dog/feed.xml`.
 **Calendar:** subscribe to `…/meetings.ics` in Google or Apple Calendar.
 
 ## Limits (read before relying on it)

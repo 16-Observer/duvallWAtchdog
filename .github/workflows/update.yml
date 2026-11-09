@@ -1,17 +1,17 @@
-name: Update and publish
+name: Update data
+
+# Scrapes the city's public records twice a day and commits the results to data/.
+# Hosting is Cloudflare Pages, connected to this repo: every commit to main triggers a
+# Cloudflare build (build command: python site/build.py --site-url https://duvallwatch.dog/,
+# output directory: public), so a data commit here is what publishes new alerts.
 
 on:
   schedule:
     - cron: "17 14,2 * * *"   # ~7am and ~7pm Pacific
   workflow_dispatch: {}
-  push:
-    branches: [main]
-    paths-ignore: ["data/**", "README.md"]   # the bot's own data commits don't retrigger
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update
@@ -42,8 +42,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: enables plain-English summaries
         run: python scraper/run.py
 
-      - name: Build site
-        run: python site/build.py --site-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+      # same build Cloudflare runs; fails the job before committing data that would break the site
+      - name: Check the site builds
+        run: python site/build.py --site-url https://duvallwatch.dog/
 
       - name: Commit data changes
         run: |
@@ -52,15 +53,3 @@ jobs:
           git add data/projects.json data/meetings.json data/events.json data/state.json data/records.json
           git diff --cached --quiet || git commit -m "Data update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - uses: actions/deploy-pages@v4
