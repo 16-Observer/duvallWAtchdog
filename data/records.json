@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "requests": [
   {
    "id": "26-385",
@@ -334,7 +334,7 @@
    "id": "26-325",
    "date": "2026-10-09",
    "due": "2026-11-09",
-   "state": "Due soon",
+   "state": "Waiting for requester",
    "department": "City Clerk's Office",
    "text": "Please provide emails and attachments from January 1, 2020, through the date of this request, sent or received by current or former City Administrators, Community Development Directors, or Planning Directors, containing any of these search terms: Bright Future Enterprise Future Success Enterprise Ji Jun Chen 145th Street Village 2426069002 26519 NE 145th Please provide records electronically and in installments as available. Thank you!",
    "url": "https://duvallwa.nextrequest.com/requests/26-325",
