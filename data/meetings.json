@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "upcoming": [
   {
    "id": "6699",
@@ -32,10 +32,56 @@
    "end": "2026-11-18T20:00:00",
    "location": "15619 Main Street, NEDuvall, WA 98019",
    "url": "https://www.duvallwa.gov/m/calendar/event/detail/10692",
-   "agenda": null
+   "agenda": {
+    "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11182026-1377",
+    "land_use_items": [
+     "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+     "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+     "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards",
+     "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+     "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+     "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards"
+    ],
+    "video_url": null
+   }
   }
  ],
  "agendas": [
+  {
+   "id": "11182026-1377",
+   "body": "Planning Commission",
+   "date": "2026-11-18",
+   "title": "Planning Commission Agenda",
+   "posted": "Nov 10, 2026 6:28 PM",
+   "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11182026-1377",
+   "packet_url": null,
+   "minutes_url": null,
+   "video_url": null,
+   "items": [
+    "Approval of Minutes",
+    "Minutes from the November 4, 2026, Planning Commission Meeting",
+    "City Staff Announcements",
+    "Public Comment: Individuals providing public comment must be physically present in",
+    "Public Hearings",
+    "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+    "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+    "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards",
+    "Unfinished Business",
+    "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+    "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+    "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards",
+    "New Business- None"
+   ],
+   "land_use_items": [
+    "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+    "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+    "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards",
+    "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
+    "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
+    "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards"
+   ],
+   "passages": []
+  },
   {
    "id": "11042026-1376",
    "body": "Planning Commission",

@@ -1,6 +1,30 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "requests": [
+  {
+   "id": "26-391",
+   "date": "2026-11-09",
+   "due": "2026-12-09",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "I am curious why you used the height to the peak of the roof as a comparison? The City of Duvall uses the bottom of the roof eave, and the height provided in these slides is not comparable or relevant. Unless the City plans to update the height methodology concurrent with adopting Title 14? Please help me understand why an apples-to-apples comparison wasn’t used? To examine these comparable heights / it is necessary to measure according to the Duvall methodology - height measured to the roof eave (and based on recent decisions, it appears the height can be measured from the highest grade and not include the height of an entire story on the low side of the site). The height of the Carnation s",
+   "url": "https://duvallwa.nextrequest.com/requests/26-391",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
+  {
+   "id": "26-390",
+   "date": "2026-11-10",
+   "due": "2026-12-10",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "I am looking for all right-of-way permits and any other permits Comcast obtained for utility work within The Ridge on Big Rock, along with the associated site plans, construction drawings, or other documents showing exactly where the digging, trenching, or boring took place. I believe the work was done in 2026, but the permits may have been issued as early as 2025. I want to make sure we capture all permits and plans related to Comcast’s work in the neighborhood during that timeframe.",
+   "url": "https://duvallwa.nextrequest.com/requests/26-390",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
   {
    "id": "26-385",
    "date": "2026-11-07",
