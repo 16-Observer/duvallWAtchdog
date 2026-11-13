@@ -2,6 +2,24 @@
  "generated": "2026-11-13",
  "requests": [
   {
+   "id": "26-397",
+   "date": "2026-11-12",
+   "due": "2026-12-12",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "As we prepare for these upcoming hearings, please provide some additional information. The Notice indicates a Staff Report, complete with exhibits, will be available seven days before the hearing. When will the Staff Report be available? Prior communications indicated that the Department of Commerce set a November 6 deadline for certain planning matters. Please provide any emails or other information that was submitted to or received from Commerce concerning this deadline. At its public hearing last week, the Planning Commission voted to ask the Council to request an extension to any deadlines imposed by Commerce for Title 14 amendments. Has such a request been made? Has Commerce responded? ",
+   "url": "https://duvallwa.nextrequest.com/requests/26-397",
+   "projects": [],
+   "documents": [
+    {
+     "title": "PRR 26-397 - Email from Requester.pdf",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-397/0c28bb14-3b92-4de3-b6e0-9a7320fde913.pdf",
+     "uploaded": "11/13/2026"
+    }
+   ],
+   "docs_ok": true
+  },
+  {
    "id": "26-394",
    "date": "2026-11-12",
    "due": "2026-12-12",
@@ -17,7 +35,7 @@
    "id": "26-391",
    "date": "2026-11-09",
    "due": "2026-12-09",
-   "state": "Open",
+   "state": "Closed",
    "department": "City Clerk's Office",
    "text": "I am curious why you used the height to the peak of the roof as a comparison? The City of Duvall uses the bottom of the roof eave, and the height provided in these slides is not comparable or relevant. Unless the City plans to update the height methodology concurrent with adopting Title 14? Please help me understand why an apples-to-apples comparison wasn’t used? To examine these comparable heights / it is necessary to measure according to the Duvall methodology - height measured to the roof eave (and based on recent decisions, it appears the height can be measured from the highest grade and not include the height of an entire story on the low side of the site). The height of the Carnation s",
    "url": "https://duvallwa.nextrequest.com/requests/26-391",
@@ -482,7 +500,7 @@
    "id": "26-295",
    "date": "2026-09-28",
    "due": "2026-10-28",
-   "state": "Waiting for requester",
+   "state": "Closed",
    "department": "City Clerk's Office",
    "text": "Hello, Under the Washington Public Records Act (RCW 42.56), I request electronic copies of City of Duvall records about the City’s own housing, density, and development incentive programs. I am not requesting King County records. I own [address], Duvall, WA 98019 (King County PIN 213190-0180; Duvall Sunset Heights Lot 18), zoned City of Duvall R4. I want materials showing which incentives, fee reductions, tax exemptions, density tools, and housing programs the City of Duvall has adopted, drafted, budgeted, or allocated for residential development within city limits. Please produce City of Duvall records from January 1, 2020, to the present: Accessory Dwelling Units — Ordinance 1336 and any C",
    "url": "https://duvallwa.nextrequest.com/requests/26-295",

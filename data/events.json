@@ -1,5 +1,15 @@
 [
  {
+  "id": "6b05be1cca47",
+  "type": "records_released",
+  "date": "2026-11-13",
+  "found": "2026-11-13",
+  "title": "Records released for request 26-397 (land use)",
+  "detail": "PRR 26-397 - Email from Requester.pdf",
+  "url": "https://duvallwa.nextrequest.com/requests/26-397",
+  "project": null
+ },
+ {
   "id": "c0e2ec17ea84",
   "type": "agenda",
   "date": "2026-11-13",
@@ -7,6 +17,16 @@
   "title": "Agenda posted: City Council, 2026-11-17",
   "detail": "Land-use items: Draft Updated Transportation Analysis with Proposed Zoning Changes",
   "url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
+  "project": null
+ },
+ {
+  "id": "ccd70c4aa14a",
+  "type": "records_request",
+  "date": "2026-11-12",
+  "found": "2026-11-13",
+  "title": "Records request filed (land use): 26-397",
+  "detail": "As we prepare for these upcoming hearings, please provide some additional information. The Notice indicates a Staff Report, complete with exhibits, will be available seven days before the hearing. Whe",
+  "url": "https://duvallwa.nextrequest.com/requests/26-397",
   "project": null
  },
  {
