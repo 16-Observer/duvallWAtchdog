@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "upcoming": [
   {
    "id": "6699",
@@ -10,7 +10,13 @@
    "end": "2026-11-17T19:00:00",
    "location": "Riverview School District Administrative Building<br>15510 1st Avenue NEDuvall, WA 98019",
    "url": "https://www.duvallwa.gov/m/calendar/event/detail/6699",
-   "agenda": null
+   "agenda": {
+    "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
+    "land_use_items": [
+     "Draft Updated Transportation Analysis with Proposed Zoning Changes"
+    ],
+    "video_url": null
+   }
   },
   {
    "id": "6803",
@@ -21,7 +27,13 @@
    "end": "2026-11-17T21:30:00",
    "location": "Riverview School District Administrative Building<br>15510 1st Avenue NEDuvall, WA 98019",
    "url": "https://www.duvallwa.gov/m/calendar/event/detail/6803",
-   "agenda": null
+   "agenda": {
+    "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
+    "land_use_items": [
+     "Draft Updated Transportation Analysis with Proposed Zoning Changes"
+    ],
+    "video_url": null
+   }
   },
   {
    "id": "10692",
@@ -79,6 +91,49 @@
     "Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan",
     "Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &",
     "Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards"
+   ],
+   "passages": []
+  },
+  {
+   "id": "11172026-1378",
+   "body": "City Council",
+   "date": "2026-11-17",
+   "title": "Committee of the Whole and Regular City Council Meeting Agenda - November 17, 2026",
+   "posted": "Nov 12, 2026 2:55 PM",
+   "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
+   "packet_url": null,
+   "minutes_url": null,
+   "video_url": null,
+   "items": [
+    "Review of Regular Meeting Agenda",
+    "Discussion Items",
+    "Presentation on Heritage Trail",
+    "Executive Session Under RCW 42.30.110(1)(i)",
+    "Written Reports and Planning Calendar",
+    "Council Planning Calendar",
+    "City Clerk’s Report",
+    "Report from the Director of Community and Economic Development",
+    "Draft Updated Transportation Analysis with Proposed Zoning Changes",
+    "Absences",
+    "Additions and Corrections to the Agenda",
+    "Adoption of the Council Agenda",
+    "Proclamations",
+    "Native American Heritage Month",
+    "Stormwater Awareness Week",
+    "Comments from the Audience",
+    "Consent Agenda",
+    "Payroll and Claims Approval",
+    "Approval of Meeting Minutes of the November 3, 2026, Council Meeting",
+    "Scheduled Items",
+    "Mayor’s Report",
+    "City Administrator’s Update",
+    "Council Reports",
+    "PIC, AWC, SCA, and other Advocacy Reports",
+    "Existing Business",
+    "Agenda Bill 26-76 – Approval of Policy for Developmental Fee Waivers"
+   ],
+   "land_use_items": [
+    "Draft Updated Transportation Analysis with Proposed Zoning Changes"
    ],
    "passages": []
   },
