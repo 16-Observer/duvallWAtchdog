@@ -37,6 +37,23 @@ def save(name, obj):
         json.dump(obj, f, indent=1, ensure_ascii=False, sort_keys=False)
 
 
+FAILED_SOURCES = []
+
+
+def fallback(label, collect, previous):
+    """Collect a source; if the city site is down or slow, keep the last good copy and carry on.
+
+    Fails the run only when there is no previous copy to fall back on (the very first run)."""
+    try:
+        return collect()
+    except Exception as e:
+        if not previous:
+            raise
+        print(f"  ! {label} unavailable ({e}); keeping data from the last successful run")
+        FAILED_SOURCES.append(label)
+        return previous
+
+
 def project_terms(p):
     terms = set()
     for f in p["file_numbers"]:
@@ -67,7 +84,9 @@ def main():
 
     # ------------------------------------------------------------ projects
     print("projects…")
-    projects = sources.projects()
+    projects = fallback("project list", sources.projects, [
+        {k: v for k, v in p.items() if k not in ("documents", "facts", "summary", "stage", "last_activity", "mentions", "records_requests", "active", "shared_folder_with")}
+        for p in old_projects.values()])
     crawled_folders = {}
     for p in projects:
         old = old_projects.get(p["id"])
@@ -122,7 +141,9 @@ def main():
 
     # ------------------------------------------------------------ meetings
     print("meetings…")
-    agendas = sources.agenda_center()
+    old_meetings = load("meetings.json", {})
+    agendas = fallback("Agenda Center", sources.agenda_center, [
+        {k: v for k, v in a.items() if k not in ("items", "land_use_items", "passages")} for a in old_meetings.get("agendas", [])])
     terms = {p["id"]: project_terms(p) for p in projects}
     all_terms = sorted({t for ts in terms.values() for t in ts})
     term_to_project = {t: pid for pid, ts in terms.items() for t in ts}
@@ -161,7 +182,8 @@ def main():
                         if m not in by_id[pid]["mentions"]:
                             by_id[pid]["mentions"].append(m)
 
-    upcoming = sources.upcoming_meetings()
+    upcoming = fallback("meeting calendar", sources.upcoming_meetings,
+                        [{k: v for k, v in u.items() if k != "agenda"} for u in old_meetings.get("upcoming", [])])
     for u in upcoming:  # attach posted agendas to calendar entries
         body_key = "Planning Commission" if "planning" in u["title"].lower() else ("City Council" if "council" in u["title"].lower() else None)
         match = next((a for a in agendas if a["date"] == u["date"] and (body_key is None or a["body"].startswith(body_key))), None)

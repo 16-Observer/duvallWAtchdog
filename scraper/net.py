@@ -19,7 +19,7 @@ def _throttle(delay=0.6):
     _last[0] = time.time()
 
 
-def fetch(url, data=None, headers=None, retries=3, timeout=60):
+def fetch(url, data=None, headers=None, retries=4, timeout=60):
     """GET (or POST when data is given). Returns bytes."""
     if url.startswith("/"):
         url = BASE + url
@@ -36,7 +36,9 @@ def fetch(url, data=None, headers=None, retries=3, timeout=60):
                 return r.read()
         except Exception as e:  # network hiccups: back off and retry
             err = e
-            time.sleep((15 if "429" in str(e) else 2) * (attempt + 1))
+            # rate limits and timeouts both mean "the server is busy": back off longer
+            busy = "429" in str(e) or "timed out" in str(e).lower()
+            time.sleep((15 if busy else 2) * (attempt + 1))
     raise RuntimeError(f"fetch failed: {url}: {err}")
 
 
