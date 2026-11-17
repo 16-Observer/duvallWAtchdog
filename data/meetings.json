@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "upcoming": [
   {
    "id": "6699",
@@ -56,6 +56,28 @@
     ],
     "video_url": null
    }
+  },
+  {
+   "id": "6647",
+   "title": "Committee of the Whole Workshop",
+   "canceled": false,
+   "date": "2026-12-01",
+   "start": "2026-12-01T17:30:00",
+   "end": "2026-12-01T19:00:00",
+   "location": "Riverview School District Administrative Building<br>15510 1st Avenue NEDuvall, WA 98019",
+   "url": "https://www.duvallwa.gov/m/calendar/event/detail/6647",
+   "agenda": null
+  },
+  {
+   "id": "6751",
+   "title": "Duvall City Council Meeting",
+   "canceled": false,
+   "date": "2026-12-01",
+   "start": "2026-12-01T19:00:00",
+   "end": "2026-12-01T21:30:00",
+   "location": "Riverview School District Administrative Building<br>15510 1st Avenue, NEDuvall, WA 98019",
+   "url": "https://www.duvallwa.gov/m/calendar/event/detail/6751",
+   "agenda": null
   }
  ],
  "agendas": [

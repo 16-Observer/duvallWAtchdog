@@ -1,11 +1,35 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "requests": [
+  {
+   "id": "26-402",
+   "date": "2026-11-16",
+   "due": "2026-12-16",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "Request date: November 16, 2026; 7:34 PM PST I request all records related to inquiries or requests for potential annexation into the City of Duvall, covering all areas of and around the city, not just a particular side or neighborhood. Please include email correspondence, submitted requests, meeting notes, and other related documents. For the date range, I would appreciate a search covering all dates for which the City currently retains responsive records. I understand that retention periods vary, and I am only requesting records that are still available. For email searches, relevant terms include “annex,” “annexing,” “annexation,” “annexed,” “UGA,” and “urban growth area,” as well as phras",
+   "url": "https://duvallwa.nextrequest.com/requests/26-402",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
+  {
+   "id": "26-401",
+   "date": "2026-11-16",
+   "due": "2026-12-16",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "Request date: November 16, 2026; 7:34 PM PST I would like to request citywide plat records for the City of Duvall. Specifically, I am looking for any existing list, report, or tracking records identifying proposed subdivisions and short plats; submitted or under-review applications; approved projects; projects under construction; and completed plats. If available, please include the project name, location or parcel numbers, application number, relevant dates, and current status. For proposed projects, I am interested in those documented through preliminary inquiries or preapplication submissions as well as formal applications. An existing project list or tracking report would be a helpful st",
+   "url": "https://duvallwa.nextrequest.com/requests/26-401",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
   {
    "id": "26-397",
    "date": "2026-11-12",
    "due": "2026-12-12",
-   "state": "Waiting for requester",
+   "state": "Closed",
    "department": "City Clerk's Office",
    "text": "As we prepare for these upcoming hearings, please provide some additional information. The Notice indicates a Staff Report, complete with exhibits, will be available seven days before the hearing. When will the Staff Report be available? Prior communications indicated that the Department of Commerce set a November 6 deadline for certain planning matters. Please provide any emails or other information that was submitted to or received from Commerce concerning this deadline. At its public hearing last week, the Planning Commission voted to ask the Council to request an extension to any deadlines imposed by Commerce for Title 14 amendments. Has such a request been made? Has Commerce responded? ",
    "url": "https://duvallwa.nextrequest.com/requests/26-397",
@@ -15,6 +39,21 @@
      "title": "PRR 26-397 - Email from Requester.pdf",
      "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-397/0c28bb14-3b92-4de3-b6e0-9a7320fde913.pdf",
      "uploaded": "11/13/2026"
+    },
+    {
+     "title": "RE_ Duvall Proposed Comprehensive Plan - Planview Submittal 2026-S-15339 - Draft Comment Letter (Engelbrecht).msg",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-397/b34f20ff-93db-4c22-997f-5fcfc8779fab.msg",
+     "uploaded": "11/16/2026"
+    },
+    {
+     "title": "Re_ Duvall Proposed Comprehensive Plan - Planview Submittal 2026-S-15339 - Draft Comment Letter.msg",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-397/eff79189-6939-42c5-8d01-99939d2530d2.msg",
+     "uploaded": "11/16/2026"
+    },
+    {
+     "title": "screencapture-duvallwa-PRR-PAYMENT-WEBPAGE nextrequest-requests-26-397-2026-11-17-09_44_32.pdf",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-397/92e11336-7582-40ed-bd2c-6c250270be5d.pdf",
+     "uploaded": "11/17/2026"
     }
    ],
    "docs_ok": true
@@ -416,7 +455,7 @@
    "id": "26-307",
    "date": "2026-10-01",
    "due": "2026-10-31",
-   "state": "Waiting for requester",
+   "state": "Closed",
    "department": "City Clerk's Office",
    "text": "To the City Clerk as Public Records Officer, please treat this section as a request for: The spreadsheet or workbook behind the September 15 capacity slides, including capacity by income level for both the December 2025 and August 2026 analyses, and a list of the parcels counted, including any city-owned parcels; Documentation of which projects are counted as \"pipeline\" in the August 2026 figures, and whether pipeline units count as capacity; The source and calculation for the figure of 780 units built from 2020 to 2024 used in the December 2025 BERK analysis (the state's own count for that period is 380 completed, and the City's plan appendix uses 433); The City's displacement risk analysis",
    "url": "https://duvallwa.nextrequest.com/requests/26-307",
