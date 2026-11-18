@@ -1,40 +1,6 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-18",
  "upcoming": [
-  {
-   "id": "6699",
-   "title": "Committee of the Whole Workshop",
-   "canceled": false,
-   "date": "2026-11-17",
-   "start": "2026-11-17T17:30:00",
-   "end": "2026-11-17T19:00:00",
-   "location": "Riverview School District Administrative Building<br>15510 1st Avenue NEDuvall, WA 98019",
-   "url": "https://www.duvallwa.gov/m/calendar/event/detail/6699",
-   "agenda": {
-    "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
-    "land_use_items": [
-     "Draft Updated Transportation Analysis with Proposed Zoning Changes"
-    ],
-    "video_url": null
-   }
-  },
-  {
-   "id": "6803",
-   "title": "Duvall City Council Meeting",
-   "canceled": false,
-   "date": "2026-11-17",
-   "start": "2026-11-17T19:00:00",
-   "end": "2026-11-17T21:30:00",
-   "location": "Riverview School District Administrative Building<br>15510 1st Avenue NEDuvall, WA 98019",
-   "url": "https://www.duvallwa.gov/m/calendar/event/detail/6803",
-   "agenda": {
-    "agenda_url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11172026-1378",
-    "land_use_items": [
-     "Draft Updated Transportation Analysis with Proposed Zoning Changes"
-    ],
-    "video_url": null
-   }
-  },
   {
    "id": "10692",
    "title": "Planning Commission Meeting",
@@ -77,6 +43,17 @@
    "end": "2026-12-01T21:30:00",
    "location": "Riverview School District Administrative Building<br>15510 1st Avenue, NEDuvall, WA 98019",
    "url": "https://www.duvallwa.gov/m/calendar/event/detail/6751",
+   "agenda": null
+  },
+  {
+   "id": "11000",
+   "title": "Library Board Meeting",
+   "canceled": false,
+   "date": "2026-12-02",
+   "start": "2026-12-02T18:00:00",
+   "end": "2026-12-02T19:30:00",
+   "location": "15619 Main St. NEDuvall, WA 98019",
+   "url": "https://www.duvallwa.gov/m/calendar/event/detail/11000",
    "agenda": null
   }
  ],
