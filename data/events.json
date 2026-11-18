@@ -1,5 +1,15 @@
 [
  {
+  "id": "a5b0f50b2c98",
+  "type": "records_request",
+  "date": "2026-11-18",
+  "found": "2026-11-18",
+  "title": "Records request filed (land use): 26-404",
+  "detail": "Could you please provide all itemized invoices and billing records from Ogden Murphy Wallace, including Oskar Rey, relating to Duvall’s comprehensive plan, zoning amendments, Department of Commerce, a",
+  "url": "https://duvallwa.nextrequest.com/requests/26-404",
+  "project": null
+ },
+ {
   "id": "c7c1bd83e356",
   "type": "records_request",
   "date": "2026-11-16",
@@ -117,6 +127,16 @@
   "title": "Agenda posted: Planning Commission, 2026-11-04",
   "detail": "Land-use items: Agenda Bill 26-8: Amendments to City of Duvall 2024 Comprehensive Plan; Agenda Bill 26-9: Amendments to Title 14 Unified Development Regulations &; Agenda Bill 26-10: Amendments to DMC 14.34 Design Standards",
   "url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Agenda/_11042026-1376",
+  "project": null
+ },
+ {
+  "id": "ee60bb35c30f",
+  "type": "minutes",
+  "date": "2026-11-03",
+  "found": "2026-11-18",
+  "title": "Minutes posted: City Council, 2026-11-03",
+  "detail": "4 land-use passage(s) flagged",
+  "url": "https://www.duvallwa.gov/AgendaCenter/ViewFile/Minutes/_11032026-1375",
   "project": null
  },
  {

@@ -2,6 +2,18 @@
  "generated": "2026-11-18",
  "requests": [
   {
+   "id": "26-404",
+   "date": "2026-11-18",
+   "due": "2026-12-18",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "Could you please provide all itemized invoices and billing records from Ogden Murphy Wallace, including Oskar Rey, relating to Duvall’s comprehensive plan, zoning amendments, Department of Commerce, and Growth Management Act compliance from January 1, 2025, to present. Please include dates, descriptions of services, and amounts billed. Electronic copies are preferred. Thank you, *Extracted from email by PRO.",
+   "url": "https://duvallwa.nextrequest.com/requests/26-404",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
+  {
    "id": "26-402",
    "date": "2026-11-16",
    "due": "2026-12-16",
