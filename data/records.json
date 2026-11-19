@@ -2,6 +2,18 @@
  "generated": "2026-11-19",
  "requests": [
   {
+   "id": "26-407",
+   "date": "2026-11-19",
+   "due": "2026-12-19",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "I am requesting access to the slide deck presented for review in the November 18, 2026, public hearing. Please share the complete deck including all supporting materials for the planned agenda including comp plan content, zoning content, zoning map, and proposed height by zone and all other slides in the deck.",
+   "url": "https://duvallwa.nextrequest.com/requests/26-407",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
+  {
    "id": "26-404",
    "date": "2026-11-18",
    "due": "2026-12-18",
