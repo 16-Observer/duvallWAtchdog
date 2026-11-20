@@ -1,6 +1,18 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "requests": [
+  {
+   "id": "26-408",
+   "date": "2026-11-19",
+   "due": "2026-12-19",
+   "state": "Waiting for requester",
+   "department": "City Clerk's Office",
+   "text": "At the November 18, 2026 Planning Commission meeting, staff stated that at the November 17 City Council meeting, the Council voted not to request an extension from the Department of Commerce. I attended the November 17 regular meeting and have reviewed the Committee of the Whole workshop recording. The published agenda contains no item related to a Commerce extension, and I did not observe any motion or vote on this matter in either session. I respectfully request clarification on the following: 1. When, where, and how was the decision not to request an extension made? Please identify the meeting, agenda item, motion, and vote count. 2. Was this matter discussed or decided during the Novembe",
+   "url": "https://duvallwa.nextrequest.com/requests/26-408",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
   {
    "id": "26-407",
    "date": "2026-11-19",
@@ -146,7 +158,7 @@
    "id": "26-370",
    "date": "2026-10-30",
    "due": "2026-11-29",
-   "state": "Open",
+   "state": "Due soon",
    "department": "City Clerk's Office",
    "text": "All comment letters received related to the SEPA comment period on Title 14 and Comp Plan Amendments, SEPA File No. 202603486.",
    "url": "https://duvallwa.nextrequest.com/requests/26-370",
