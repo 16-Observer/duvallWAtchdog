@@ -1,6 +1,18 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "requests": [
+  {
+   "id": "26-410",
+   "date": "2026-11-20",
+   "due": "2026-12-21",
+   "state": "Open",
+   "department": "City Clerk's Office",
+   "text": "Under RCW 42.56, I request electronic copies of all emails, Microsoft Teams or other chat messages, text messages (including on personal devices used for City business), calendar entries, and meeting notes from September 1, 2025 to the present, sent or received by Avril Baty, Morgan Dorner, Larissa Grundell, Cynthia McNabb, Troy Davis, Maddie Lorentsen, the Mayor, or any Councilmember, that discuss whether any of the following provisions of CA26-005 or CA26-001 are required by state law, by the Department of Commerce, or by the City's agreement or work program with Commerce, or are instead optional or discretionary: - increases to maximum building height in any zone - removal or retention of",
+   "url": "https://duvallwa.nextrequest.com/requests/26-410",
+   "projects": [],
+   "documents": [],
+   "docs_ok": true
+  },
   {
    "id": "26-408",
    "date": "2026-11-19",
@@ -17,12 +29,28 @@
    "id": "26-407",
    "date": "2026-11-19",
    "due": "2026-12-19",
-   "state": "Waiting for requester",
+   "state": "Closed",
    "department": "City Clerk's Office",
    "text": "I am requesting access to the slide deck presented for review in the November 18, 2026, public hearing. Please share the complete deck including all supporting materials for the planned agenda including comp plan content, zoning content, zoning map, and proposed height by zone and all other slides in the deck.",
    "url": "https://duvallwa.nextrequest.com/requests/26-407",
    "projects": [],
-   "documents": [],
+   "documents": [
+    {
+     "title": "2026.11.18 PC Design Standards public hearing.pptx",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-407/b7207f2a-cef4-4d28-a055-dcaf1f856f49.pptx",
+     "uploaded": "11/20/2026"
+    },
+    {
+     "title": "2026.11.18 PC Zoning code amendments.pptx",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-407/d79a838c-f563-4435-a85e-2c8c6c23f49b.pptx",
+     "uploaded": "11/20/2026"
+    },
+    {
+     "title": "2026.11.18 PC Comp Plan Update public hearing.pptx",
+     "url": "https://nextrequestdev.s3.amazonaws.com/duvallwa/26-407/518ceb79-e7f3-41f1-96a2-0f1ab2679c81.pptx",
+     "uploaded": "11/20/2026"
+    }
+   ],
    "docs_ok": true
   },
   {
