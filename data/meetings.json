@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "upcoming": [
   {
    "id": "6647",
@@ -32,6 +32,17 @@
    "end": "2026-12-02T19:30:00",
    "location": "15619 Main St. NEDuvall, WA 98019",
    "url": "https://www.duvallwa.gov/m/calendar/event/detail/11000",
+   "agenda": null
+  },
+  {
+   "id": "10792",
+   "title": "Parks Advisory Commission Meeting",
+   "canceled": false,
+   "date": "2026-12-07",
+   "start": "2026-12-07T18:00:00",
+   "end": "2026-12-07T19:30:00",
+   "location": "15619 Main Street, NE Duvall, WA 98019",
+   "url": "https://www.duvallwa.gov/m/calendar/event/detail/10792",
    "agenda": null
   }
  ],

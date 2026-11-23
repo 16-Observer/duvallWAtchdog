@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "requests": [
   {
    "id": "26-410",
@@ -126,7 +126,7 @@
    "id": "26-394",
    "date": "2026-11-12",
    "due": "2026-12-12",
-   "state": "Waiting for requester",
+   "state": "Open",
    "department": "City Clerk's Office",
    "text": "plat 2426069070. [address] Wetlands mapped on property property, borders, topography of land including PSE heights and easement.",
    "url": "https://duvallwa.nextrequest.com/requests/26-394",
